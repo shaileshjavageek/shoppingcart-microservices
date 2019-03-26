@@ -1,0 +1,11 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.assignment.shoppingcart.microservices.inventoryservice.model.Inventory;
+
+public interface ShoppingCartRepository extends JpaRepository<Inventory, Long>{
+	
+	
+
+}

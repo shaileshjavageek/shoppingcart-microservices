@@ -1,0 +1,16 @@
+package com.assignment.shoppingcart.microservices.customerservice.model.dtos;
+
+
+public class CustomerDTO {
+	
+	private static final long serialVersionUID = 3943741931634429527L;
+	
+	private Long id;
+	
+	private String customerName;
+	
+	private String emailId;
+	
+	private String phoneNumber;
+
+}

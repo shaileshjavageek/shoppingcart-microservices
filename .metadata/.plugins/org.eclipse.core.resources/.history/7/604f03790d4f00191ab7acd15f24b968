@@ -1,0 +1,11 @@
+package com.assignment.shoppingcart.microservices.productservice.repository;
+
+import com.assignment.shoppingcart.microservices.productservice.model.dtos.ProductDTO;
+
+public interface ProductService {
+
+	ProductDTO findProductById(Long id);
+	
+	
+
+}

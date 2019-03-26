@@ -1,0 +1,5 @@
+package com.assignment.shoppingcart.microservices.cartservice.model.dtos;
+
+public class CartDTO {
+
+}

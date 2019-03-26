@@ -1,0 +1,10 @@
+package com.assignment.shoppingcart.microservices.customerservice.exception;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class CustomerServiceException {
+	
+	
+
+}

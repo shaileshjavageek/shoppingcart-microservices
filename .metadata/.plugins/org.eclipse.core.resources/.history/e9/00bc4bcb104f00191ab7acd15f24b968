@@ -1,0 +1,5 @@
+package com.assignment.shoppingcart.microservices.orderservice.proxy;
+
+public interface CustomerServiceProxy {
+
+}

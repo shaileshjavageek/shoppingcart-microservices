@@ -1,0 +1,12 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.repository;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
+@Service
+@Repository
+public class InventoryServiceImpl implements InventoryService{
+	
+	@
+
+}

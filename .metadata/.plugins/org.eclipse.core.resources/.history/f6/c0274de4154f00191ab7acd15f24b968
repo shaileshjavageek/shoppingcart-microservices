@@ -1,0 +1,11 @@
+package com.assignment.shoppingcart.microservices.cartservice.model.dtos;
+
+public class CartDTO {
+	
+	private Long id;
+	
+	private ProductDTO[] products;
+	
+	
+	
+}

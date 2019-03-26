@@ -1,0 +1,5 @@
+package com.assignment.shoppingcart.microservices.orderservice.exception;
+
+public class EmptyCartException {
+
+}

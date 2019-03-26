@@ -1,0 +1,14 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.exception;
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+@RestControllerAdvice
+public class InventoryServiceExceptionHandler extends ResponseEntityExceptionHandler{
+	
+	@ExceptionHandler(InventoryNotFoundforProduct.class)
+	public 
+	
+
+}

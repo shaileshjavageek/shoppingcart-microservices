@@ -1,0 +1,17 @@
+package com.assignment.shoppingcart.microservices.cartservice.model.dtos;
+
+import java.util.Date;
+
+public class CartDTO {
+	
+	private Long id;
+	
+	private ProductDTO products;
+	
+	private CustomerDTO customer;
+	
+	private boolean isCheckedOut;
+	
+	private Date checkOutDate; 
+	
+}

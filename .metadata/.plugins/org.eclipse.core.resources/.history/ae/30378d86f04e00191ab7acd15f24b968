@@ -1,0 +1,24 @@
+# Application config
+spring:
+  application:
+    name: zuul-gateway-server
+
+# HTTP Server (Tomcat) Port
+server: 
+  port: 8000
+  connection-timeout: 30000
+
+# Discovery Server Access
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:1111/eureka/
+        
+zuul:
+  host:
+    socket-timeout-millis: 30000
+    connect-timeout-millis: 30000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  

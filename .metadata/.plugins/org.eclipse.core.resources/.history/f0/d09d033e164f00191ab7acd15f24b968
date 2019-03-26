@@ -1,0 +1,15 @@
+package com.assignment.shoppingcart.microservices.cartservice.model.dtos;
+
+public class CartDTO {
+	
+	private Long id;
+	
+	private ProductDTO[] products;
+	
+	private CustomerDTO customer;
+	
+	private boolean isCheckedOut;
+	
+	
+	
+}

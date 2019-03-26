@@ -1,0 +1,16 @@
+# Application config
+spring:
+  application:
+    name: order-service
+
+  
+# HTTP Server (Tomcat) Port
+server: 
+  port: 8085
+
+# Discovery Server Access
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:1111/eureka/
+    

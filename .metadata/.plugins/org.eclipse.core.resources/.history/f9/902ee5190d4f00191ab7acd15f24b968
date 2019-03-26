@@ -1,0 +1,5 @@
+package com.assignment.shoppingcart.microservices.productservice.repository;
+
+public class ProductServiceImpl {
+
+}

@@ -1,0 +1,36 @@
+package com.assignment.shoppingcart.microservices.cartservice.model;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "cart")
+public class Cart implements Serializable{
+
+	private static final long serialVersionUID = 8621821532292316993L;
+	
+	@Id
+	@GeneratedValue (strategy = GenerationType.AUTO)
+	@Column (name = "id")
+	private Long id;
+	
+	@Column (name = "selected_at")
+	private Date selectedAt;
+	
+	@Column (name = "customer_id")
+	private Long customerId;
+	
+	@Column (name = "inventory_id")
+	private Long inventoryId;
+	
+	@Column (name = "quantity")
+	private Long quantity;
+	
+}

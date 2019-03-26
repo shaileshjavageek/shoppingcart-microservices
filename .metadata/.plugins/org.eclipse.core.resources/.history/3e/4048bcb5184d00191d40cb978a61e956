@@ -1,0 +1,3 @@
+INSERT INTO CUSTOMER VALUES (1, 'Shailesh Kumar', 'shailesh.atn@gmail.com', '+61 403768215');
+INSERT INTO CUSTOMER VALUES (2, 'John', 'shailesh.atn@gmail.com', '+61 403768215');
+INSERT INTO CUSTOMER VALUES (3, '', 'shailesh.atn@gmail.com', '+61 403768215');

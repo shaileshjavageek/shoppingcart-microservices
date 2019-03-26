@@ -1,0 +1,7 @@
+package com.assignment.shoppingcart.microservices.cartservice.conf;
+
+@Feign
+
+public class CartServiceProxy {
+
+}

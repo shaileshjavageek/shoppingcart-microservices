@@ -1,0 +1,10 @@
+package com.assignment.shoppingcart.microservices.cartservice.conf;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "customer-service")
+public class CustomerServiceProxy {
+	
+	
+
+}

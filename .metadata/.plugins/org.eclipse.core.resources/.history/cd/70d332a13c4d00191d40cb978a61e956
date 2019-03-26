@@ -1,0 +1,5 @@
+package com.assignment.shoppingcart.microservices.cartservice.repository;
+
+public interface CartServiceRepository {
+
+}

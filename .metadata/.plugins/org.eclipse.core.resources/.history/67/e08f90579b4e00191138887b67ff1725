@@ -1,0 +1,15 @@
+package com.assignment.shoppingcart.microservices.zuulgatewayserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@EnableZuulProxy
+@EnableDiscoveryClient
+@SpringBootApplication
+public class ZuulGatewayServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ZuulGatewayServerApplication.class, args);
+	}
+
+}

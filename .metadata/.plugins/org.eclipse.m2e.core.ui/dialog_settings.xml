@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\HCL_Work\order-service"/>
+			<item value="E:\HCL_Work\test-feign"/>
+			<item value="E:\HCL_Work\zuul-gateway-server"/>
+			<item value="E:\HCL_Work\product-service"/>
+			<item value="E:\HCL_Work\inventory-service"/>
+			<item value="E:\HCL_Work\eureka-naming-server"/>
+			<item value="E:\HCL_Work\netflix-zuul-api-gateway-server"/>
+			<item value="E:\HCL_Work\discovery-service"/>
+			<item value="E:\HCL_Work\cart-service"/>
+			<item value="E:\HCL_Work\customer-service"/>
+			<item value="E:\HCL_Work\db-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

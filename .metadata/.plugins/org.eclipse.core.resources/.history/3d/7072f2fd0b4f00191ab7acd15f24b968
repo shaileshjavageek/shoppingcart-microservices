@@ -1,0 +1,9 @@
+package com.assignment.shoppingcart.microservices.customerservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.assignment.shoppingcart.microservices.customerservice.model.Customer;
+
+public interface CustomerServiceRepository extends JpaRepository<Customer, Long>{
+
+}

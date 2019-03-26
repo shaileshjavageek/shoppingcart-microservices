@@ -1,0 +1,6 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.proxy;
+
+
+public class ProductServiceProxy {
+
+}

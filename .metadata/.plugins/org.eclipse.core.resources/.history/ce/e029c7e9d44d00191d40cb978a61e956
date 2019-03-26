@@ -1,0 +1,14 @@
+package com.assignment.shoppingcart.microservices.cartservice.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.assignment.shoppingcart.microservices.cartservice.model.Cart;
+
+public interface CartServiceRepository extends JpaRepository<Cart, Long>{
+
+	List<Cart> getCustomerCartItemById(Long id);
+	
+
+}

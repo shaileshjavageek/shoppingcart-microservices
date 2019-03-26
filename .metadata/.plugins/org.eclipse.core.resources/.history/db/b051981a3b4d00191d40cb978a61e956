@@ -1,0 +1,16 @@
+#Application conf
+spring.application.name=cart-service
+
+# Server Conf
+server.port=8083
+
+# H2 DB config
+# H2 configurations
+spring.h2.console.enabled=true
+spring.jpa.show-sql=true
+spring.h2.console.path=/h2
+spring.datasource.url= jdbc:h2:mem:cartdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+

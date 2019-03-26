@@ -1,0 +1,17 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.proxy;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.assignment.shoppingcart.microservices.inventoryservice.model.dtos.ProductDTO;
+
+@Component
+@FeignClient(name = "product-service")
+public interface ProductServiceProxy {
+	
+	@GetMapping("/{id}")
+	public ProductDTO getProductById(@PathVariable("id") Long id);
+
+}

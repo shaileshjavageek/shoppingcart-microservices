@@ -1,0 +1,12 @@
+package com.assignment.shoppingcart.microservices.orderservice.proxy;
+
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "zuul-gateway-server")
+@RibbonClient (name = "customer-service")
+public interface CustomerServiceProxy {
+	
+	
+
+}

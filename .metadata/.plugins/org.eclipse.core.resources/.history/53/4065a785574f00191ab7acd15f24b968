@@ -1,0 +1,25 @@
+package com.assignment.shoppingcart.microservices.inventoryservice.repository;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+
+import com.assignment.shoppingcart.microservices.inventoryservice.model.Inventory;
+
+@Service
+@Repository
+public class InventoryServiceImpl implements InventoryService{
+	
+	@PersistenceContext
+	private EntityManager entityManager;
+	
+	
+	public Inventory findProductById(Long productId) {
+		String queryString = "SELECT * FROM INVENTORY WHERE PRODUCT_ID = ?1";
+		return (Inventory) entityManager.createQuery(queryString).setParameter(1,productId).getSingleResult();
+		
+	}
+
+}

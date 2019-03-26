@@ -1,0 +1,8 @@
+package com.assignment.shoppingcart.microservices.customerservice.model;
+
+public class Snippet {
+	public static void main(String[] args) {
+		shoppingcartdb
+	}
+}
+

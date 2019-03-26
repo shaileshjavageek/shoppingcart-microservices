@@ -1,0 +1,3 @@
+INSERT INTO PRODUCT VALUES (1, 'TV', 'shailesh.atn@gmail.com');
+INSERT INTO PRODUCT VALUES (2, 'Apple X Mobile', 'john@dummy.com');
+INSERT INTO PRODUCT VALUES (3, 'HP Laptop', 'paul@dummy.com');
