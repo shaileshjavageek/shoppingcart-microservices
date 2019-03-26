@@ -1,8 +1,0 @@
-package com.assignment.shoppingcart.microservices.customerservice.exception;
-
-
-public class CustomerNotFoundException extends RuntimeException{
-	
-	
-
-}

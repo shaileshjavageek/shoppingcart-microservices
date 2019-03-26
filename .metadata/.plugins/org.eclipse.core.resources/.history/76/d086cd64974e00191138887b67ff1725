@@ -1,9 +1,0 @@
-package com.assignment.shoppingcart.microservices.productservice.exception;
-
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-public class ProductServiceExceptionHandler extends ResponseEntityExceptionHandler{
-	
-	
-
-}

@@ -1,5 +1,0 @@
-package com.assignment.shoppingcart.microservices.cartservice.conf;
-
-public class CartServiceProxy {
-
-}

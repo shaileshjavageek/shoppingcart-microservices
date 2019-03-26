@@ -1,5 +1,0 @@
-package com.assignment.shoppingcart.microservices.customerservice.exception;
-
-public class CustomerServiceException {
-
-}

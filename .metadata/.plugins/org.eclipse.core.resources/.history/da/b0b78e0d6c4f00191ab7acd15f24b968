@@ -1,4 +1,0 @@
-FROM openjdk:8
-ADD target/UserManagementApi-1.0.0.jar UserManagementApi-1.0.0.jar
-EXPOSE 8084
-ENTRYPOINT ["java", "-jar", "UserManagementApi-1.0.0.jar"]

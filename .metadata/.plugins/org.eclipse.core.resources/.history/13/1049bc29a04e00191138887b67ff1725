@@ -1,5 +1,0 @@
-package com.assignment.shoppingcart.microservices.inventoryservice.exception;
-
-public class InventoryNotFoundforProduct {
-
-}

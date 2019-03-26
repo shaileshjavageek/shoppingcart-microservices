@@ -1,7 +1,0 @@
-package com.assignment.shoppingcart.microservices.inventoryservice.repository;
-
-public interface InventoryService {
-	
-	public Inventory findProductById(Long productId);
-
-}

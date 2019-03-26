@@ -1,5 +1,0 @@
-package com.assignment.shoppingcart.microservices.productservice.exception;
-
-public class ProductServiceExceptionHandler {
-
-}
